@@ -1,0 +1,10 @@
+var name = "박정무";
+console.log(name);
+var name = "박정훈";
+console.log(name);
+var name = "박진형";
+console.log(name);
+var name = "김소현";
+console.log(name);
+var name = "유지원";
+console.log(name);
