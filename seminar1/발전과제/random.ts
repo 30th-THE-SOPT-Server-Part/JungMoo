@@ -44,21 +44,20 @@ const dinner: Dinner = {
     return array;
   },
   organize(array: Array<Member>) {
-    console.log("organize");
     this.shuffle(array);
 
     let ob: Member;
     let yb: Member;
 
     for (let member of array) {
-      if (member.group == OB) {
+      if (member.group === OB) {
         ob = member;
         break;
       }
     }
 
     for (let member of array) {
-      if (member.group == YB) {
+      if (member.group === YB) {
         yb = member;
         break;
       }
