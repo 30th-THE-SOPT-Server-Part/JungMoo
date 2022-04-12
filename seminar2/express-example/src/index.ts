@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/api", require("./api"));
+app.use("/api", require("./router"));
 
 app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello World!");
