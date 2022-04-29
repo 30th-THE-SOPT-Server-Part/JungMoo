@@ -1,0 +1,21 @@
+{
+  "api" : [
+    {
+      "path" : "/user",
+      "target" : "/user"
+    },
+    {
+      "path" : "/like",
+      "target" : "/like"
+    },
+    {
+      "path" : "/signup",
+      "target" : "/signup"
+    },
+    {
+      "path" : "/blog",
+      "target" : "/blog"
+    }
+  ],
+  "apiSrcDir" : "../api"
+}
